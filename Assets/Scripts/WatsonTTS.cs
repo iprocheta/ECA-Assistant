@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using IBM.Watson.DeveloperCloud.Connection;
@@ -70,6 +70,7 @@ public class WatsonTTS : WatsonCommon
     private void OnSucessTextToSpeech(AudioClip response, Dictionary<string, object> customdata)
     {
         PlayClip(response);
+        AnimationHandler.Instance.PlayTalk();
     }
 
     private void OnFail(RESTConnector.Error error, Dictionary<string, object> customdata) 
@@ -101,5 +102,6 @@ public class WatsonTTS : WatsonCommon
 
         Debug.Log("Came here to make it false");
         MessengerBehaviour.Instance.isAvatartalking = false;
+        AnimationHandler.Instance.ResetTalk();
     }
 }

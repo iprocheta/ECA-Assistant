@@ -1,4 +1,4 @@
-﻿using UnityEngine;
+using UnityEngine;
 using UnityEngine.UI;
 //handle all events for tts>stt or stt>tts
 public class MessengerBehaviour : Manager<MessengerBehaviour>

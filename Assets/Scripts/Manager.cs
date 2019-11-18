@@ -1,4 +1,4 @@
-﻿//singleton pattern to manage the instance of all classes. ensure only one instance for each particular class
+//singleton pattern to manage the instance of all classes. ensure only one instance for each particular class
 using UnityEngine;
 public abstract class Manager<T> : MonoBehaviour where T : MonoBehaviour
 {

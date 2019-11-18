@@ -1,0 +1,2402 @@
+fileFormatVersion: 2
+guid: 423fe94b86bcc4d90899776d845340b5
+ModelImporter:
+  serializedVersion: 23
+  fileIDToRecycleName:
+    100000: AnimData_Head
+    100002: AnimData_HeadTop_End
+    100004: AnimData_Hips
+    100006: AnimData_Joint_GRP
+    100008: AnimData_LeftArm
+    100010: AnimData_LeftEye
+    100012: AnimData_LeftFoot
+    100014: AnimData_LeftForeArm
+    100016: AnimData_LeftHand
+    100018: AnimData_LeftHandIndex1
+    100020: AnimData_LeftHandIndex2
+    100022: AnimData_LeftHandIndex3
+    100024: AnimData_LeftHandIndex4
+    100026: AnimData_LeftHandMiddle1
+    100028: AnimData_LeftHandMiddle2
+    100030: AnimData_LeftHandMiddle3
+    100032: AnimData_LeftHandMiddle4
+    100034: AnimData_LeftHandPinky1
+    100036: AnimData_LeftHandPinky2
+    100038: AnimData_LeftHandPinky3
+    100040: AnimData_LeftHandPinky4
+    100042: AnimData_LeftHandRing1
+    100044: AnimData_LeftHandRing2
+    100046: AnimData_LeftHandRing3
+    100048: AnimData_LeftHandRing4
+    100050: AnimData_LeftHandThumb1
+    100052: AnimData_LeftHandThumb2
+    100054: AnimData_LeftHandThumb3
+    100056: AnimData_LeftHandThumb4
+    100058: AnimData_LeftLeg
+    100060: AnimData_LeftShoulder
+    100062: AnimData_LeftToe_End
+    100064: AnimData_LeftToeBase
+    100066: AnimData_LeftUpLeg
+    100068: AnimData_Neck
+    100070: AnimData_RightArm
+    100072: AnimData_RightEye
+    100074: AnimData_RightFoot
+    100076: AnimData_RightForeArm
+    100078: AnimData_RightHand
+    100080: AnimData_RightHandIndex1
+    100082: AnimData_RightHandIndex2
+    100084: AnimData_RightHandIndex3
+    100086: AnimData_RightHandIndex4
+    100088: AnimData_RightHandMiddle1
+    100090: AnimData_RightHandMiddle2
+    100092: AnimData_RightHandMiddle3
+    100094: AnimData_RightHandMiddle4
+    100096: AnimData_RightHandPinky1
+    100098: AnimData_RightHandPinky2
+    100100: AnimData_RightHandPinky3
+    100102: AnimData_RightHandPinky4
+    100104: AnimData_RightHandRing1
+    100106: AnimData_RightHandRing2
+    100108: AnimData_RightHandRing3
+    100110: AnimData_RightHandRing4
+    100112: AnimData_RightHandThumb1
+    100114: AnimData_RightHandThumb2
+    100116: AnimData_RightHandThumb3
+    100118: AnimData_RightHandThumb4
+    100120: AnimData_RightLeg
+    100122: AnimData_RightShoulder
+    100124: AnimData_RightToe_End
+    100126: AnimData_RightToeBase
+    100128: AnimData_RightUpLeg
+    100130: AnimData_Spine
+    100132: AnimData_Spine1
+    100134: AnimData_Spine2
+    100136: Character
+    100138: Eyes
+    100140: Facial_Misc_GRP
+    100142: GreeKBoi_Ctrl_ChestEndEffector
+    100144: GreeKBoi_Ctrl_ChestOriginEffector
+    100146: GreeKBoi_Ctrl_Head
+    100148: GreeKBoi_Ctrl_HeadEffector
+    100150: GreeKBoi_Ctrl_Hips
+    100152: GreeKBoi_Ctrl_HipsEffector
+    100154: GreeKBoi_Ctrl_LeafLeftForeArmRoll1
+    100156: GreeKBoi_Ctrl_LeafLeftForeArmRoll2
+    100158: GreeKBoi_Ctrl_LeafLeftForeArmRoll3
+    100160: GreeKBoi_Ctrl_LeafRightForeArmRoll1
+    100162: GreeKBoi_Ctrl_LeafRightForeArmRoll2
+    100164: GreeKBoi_Ctrl_LeafRightForeArmRoll3
+    100166: GreeKBoi_Ctrl_LeftAnkleEffector
+    100168: GreeKBoi_Ctrl_LeftArm
+    100170: GreeKBoi_Ctrl_LeftElbowEffector
+    100172: GreeKBoi_Ctrl_LeftFoot
+    100174: GreeKBoi_Ctrl_LeftFootEffector
+    100176: GreeKBoi_Ctrl_LeftForeArm
+    100178: GreeKBoi_Ctrl_LeftHand
+    100180: GreeKBoi_Ctrl_LeftHandIndex1
+    100182: GreeKBoi_Ctrl_LeftHandIndex2
+    100184: GreeKBoi_Ctrl_LeftHandIndex3
+    100186: GreeKBoi_Ctrl_LeftHandIndex4
+    100188: GreeKBoi_Ctrl_LeftHandIndexEffector
+    100190: GreeKBoi_Ctrl_LeftHandMiddle1
+    100192: GreeKBoi_Ctrl_LeftHandMiddle2
+    100194: GreeKBoi_Ctrl_LeftHandMiddle3
+    100196: GreeKBoi_Ctrl_LeftHandMiddle4
+    100198: GreeKBoi_Ctrl_LeftHandMiddleEffector
+    100200: GreeKBoi_Ctrl_LeftHandPinky1
+    100202: GreeKBoi_Ctrl_LeftHandPinky2
+    100204: GreeKBoi_Ctrl_LeftHandPinky3
+    100206: GreeKBoi_Ctrl_LeftHandPinky4
+    100208: GreeKBoi_Ctrl_LeftHandPinkyEffector
+    100210: GreeKBoi_Ctrl_LeftHandRing1
+    100212: GreeKBoi_Ctrl_LeftHandRing2
+    100214: GreeKBoi_Ctrl_LeftHandRing3
+    100216: GreeKBoi_Ctrl_LeftHandRing4
+    100218: GreeKBoi_Ctrl_LeftHandRingEffector
+    100220: GreeKBoi_Ctrl_LeftHandThumb1
+    100222: GreeKBoi_Ctrl_LeftHandThumb2
+    100224: GreeKBoi_Ctrl_LeftHandThumb3
+    100226: GreeKBoi_Ctrl_LeftHandThumb4
+    100228: GreeKBoi_Ctrl_LeftHandThumbEffector
+    100230: GreeKBoi_Ctrl_LeftHipEffector
+    100232: GreeKBoi_Ctrl_LeftKneeEffector
+    100234: GreeKBoi_Ctrl_LeftLeg
+    100236: GreeKBoi_Ctrl_LeftShoulder
+    100238: GreeKBoi_Ctrl_LeftShoulderEffector
+    100240: GreeKBoi_Ctrl_LeftToeBase
+    100242: GreeKBoi_Ctrl_LeftUpLeg
+    100244: GreeKBoi_Ctrl_LeftWristEffector
+    100246: GreeKBoi_Ctrl_Neck
+    100248: GreeKBoi_Ctrl_Neck1
+    100250: GreeKBoi_Ctrl_Neck2
+    100252: GreeKBoi_Ctrl_Reference
+    100254: GreeKBoi_Ctrl_RightAnkleEffector
+    100256: GreeKBoi_Ctrl_RightArm
+    100258: GreeKBoi_Ctrl_RightElbowEffector
+    100260: GreeKBoi_Ctrl_RightFoot
+    100262: GreeKBoi_Ctrl_RightFootEffector
+    100264: GreeKBoi_Ctrl_RightForeArm
+    100266: GreeKBoi_Ctrl_RightHand
+    100268: GreeKBoi_Ctrl_RightHandIndex1
+    100270: GreeKBoi_Ctrl_RightHandIndex2
+    100272: GreeKBoi_Ctrl_RightHandIndex3
+    100274: GreeKBoi_Ctrl_RightHandIndex4
+    100276: GreeKBoi_Ctrl_RightHandIndexEffector
+    100278: GreeKBoi_Ctrl_RightHandMiddle1
+    100280: GreeKBoi_Ctrl_RightHandMiddle2
+    100282: GreeKBoi_Ctrl_RightHandMiddle3
+    100284: GreeKBoi_Ctrl_RightHandMiddle4
+    100286: GreeKBoi_Ctrl_RightHandMiddleEffector
+    100288: GreeKBoi_Ctrl_RightHandPinky1
+    100290: GreeKBoi_Ctrl_RightHandPinky2
+    100292: GreeKBoi_Ctrl_RightHandPinky3
+    100294: GreeKBoi_Ctrl_RightHandPinky4
+    100296: GreeKBoi_Ctrl_RightHandPinkyEffector
+    100298: GreeKBoi_Ctrl_RightHandRing1
+    100300: GreeKBoi_Ctrl_RightHandRing2
+    100302: GreeKBoi_Ctrl_RightHandRing3
+    100304: GreeKBoi_Ctrl_RightHandRing4
+    100306: GreeKBoi_Ctrl_RightHandRingEffector
+    100308: GreeKBoi_Ctrl_RightHandThumb1
+    100310: GreeKBoi_Ctrl_RightHandThumb2
+    100312: GreeKBoi_Ctrl_RightHandThumb3
+    100314: GreeKBoi_Ctrl_RightHandThumb4
+    100316: GreeKBoi_Ctrl_RightHandThumbEffector
+    100318: GreeKBoi_Ctrl_RightHipEffector
+    100320: GreeKBoi_Ctrl_RightKneeEffector
+    100322: GreeKBoi_Ctrl_RightLeg
+    100324: GreeKBoi_Ctrl_RightShoulder
+    100326: GreeKBoi_Ctrl_RightShoulderEffector
+    100328: GreeKBoi_Ctrl_RightToeBase
+    100330: GreeKBoi_Ctrl_RightUpLeg
+    100332: GreeKBoi_Ctrl_RightWristEffector
+    100334: GreeKBoi_Ctrl_Spine
+    100336: GreeKBoi_Ctrl_Spine1
+    100338: GreeKBoi_Ctrl_Spine2
+    100340: GreeKBoi_Ctrl_Spine3
+    100342: GreeKBoi_Head
+    100344: GreeKBoi_Hips
+    100346: GreeKBoi_LeafLeftForeArmRoll1
+    100348: GreeKBoi_LeafLeftForeArmRoll2
+    100350: GreeKBoi_LeafLeftForeArmRoll3
+    100352: GreeKBoi_LeafRightForeArmRoll1
+    100354: GreeKBoi_LeafRightForeArmRoll2
+    100356: GreeKBoi_LeafRightForeArmRoll3
+    100358: GreeKBoi_LeftArm
+    100360: GreeKBoi_LeftFoot
+    100362: GreeKBoi_LeftForeArm
+    100364: GreeKBoi_LeftHand
+    100366: GreeKBoi_LeftHandIndex1
+    100368: GreeKBoi_LeftHandIndex2
+    100370: GreeKBoi_LeftHandIndex3
+    100372: GreeKBoi_LeftHandIndex4
+    100374: GreeKBoi_LeftHandMiddle1
+    100376: GreeKBoi_LeftHandMiddle2
+    100378: GreeKBoi_LeftHandMiddle3
+    100380: GreeKBoi_LeftHandMiddle4
+    100382: GreeKBoi_LeftHandPinky1
+    100384: GreeKBoi_LeftHandPinky2
+    100386: GreeKBoi_LeftHandPinky3
+    100388: GreeKBoi_LeftHandPinky4
+    100390: GreeKBoi_LeftHandRing1
+    100392: GreeKBoi_LeftHandRing2
+    100394: GreeKBoi_LeftHandRing3
+    100396: GreeKBoi_LeftHandRing4
+    100398: GreeKBoi_LeftHandThumb1
+    100400: GreeKBoi_LeftHandThumb2
+    100402: GreeKBoi_LeftHandThumb3
+    100404: GreeKBoi_LeftHandThumb4
+    100406: GreeKBoi_LeftLeg
+    100408: GreeKBoi_LeftShoulder
+    100410: GreeKBoi_LeftToeBase
+    100412: GreeKBoi_LeftUpLeg
+    100414: GreeKBoi_Neck
+    100416: GreeKBoi_Neck1
+    100418: GreeKBoi_Neck2
+    100420: GreeKBoi_Reference
+    100422: GreeKBoi_RightArm
+    100424: GreeKBoi_RightFoot
+    100426: GreeKBoi_RightForeArm
+    100428: GreeKBoi_RightHand
+    100430: GreeKBoi_RightHandIndex1
+    100432: GreeKBoi_RightHandIndex2
+    100434: GreeKBoi_RightHandIndex3
+    100436: GreeKBoi_RightHandIndex4
+    100438: GreeKBoi_RightHandMiddle1
+    100440: GreeKBoi_RightHandMiddle2
+    100442: GreeKBoi_RightHandMiddle3
+    100444: GreeKBoi_RightHandMiddle4
+    100446: GreeKBoi_RightHandPinky1
+    100448: GreeKBoi_RightHandPinky2
+    100450: GreeKBoi_RightHandPinky3
+    100452: GreeKBoi_RightHandPinky4
+    100454: GreeKBoi_RightHandRing1
+    100456: GreeKBoi_RightHandRing2
+    100458: GreeKBoi_RightHandRing3
+    100460: GreeKBoi_RightHandRing4
+    100462: GreeKBoi_RightHandThumb1
+    100464: GreeKBoi_RightHandThumb2
+    100466: GreeKBoi_RightHandThumb3
+    100468: GreeKBoi_RightHandThumb4
+    100470: GreeKBoi_RightLeg
+    100472: GreeKBoi_RightShoulder
+    100474: GreeKBoi_RightToeBase
+    100476: GreeKBoi_RightUpLeg
+    100478: GreeKBoi_Spine
+    100480: GreeKBoi_Spine1
+    100482: GreeKBoi_Spine2
+    100484: GreeKBoi_Spine3
+    100486: Joint_GRP
+    100488: LeftEye
+    100490: LeftEye_Aim_CTRL_GuideCurve
+    100492: Mesh_Body
+    100494: Mesh_Bottoms
+    100496: Mesh_default1
+    100498: Mesh_Eyelashes
+    100500: Mesh_GRP
+    100502: Mesh_Hair
+    100504: Mesh_Shoes
+    100506: Mesh_Tops
+    100508: RightEye
+    100510: RightEye_Aim_CTRL_GuideCurve
+    100512: //RootNode
+    400000: AnimData_Head
+    400002: AnimData_HeadTop_End
+    400004: AnimData_Hips
+    400006: AnimData_Joint_GRP
+    400008: AnimData_LeftArm
+    400010: AnimData_LeftEye
+    400012: AnimData_LeftFoot
+    400014: AnimData_LeftForeArm
+    400016: AnimData_LeftHand
+    400018: AnimData_LeftHandIndex1
+    400020: AnimData_LeftHandIndex2
+    400022: AnimData_LeftHandIndex3
+    400024: AnimData_LeftHandIndex4
+    400026: AnimData_LeftHandMiddle1
+    400028: AnimData_LeftHandMiddle2
+    400030: AnimData_LeftHandMiddle3
+    400032: AnimData_LeftHandMiddle4
+    400034: AnimData_LeftHandPinky1
+    400036: AnimData_LeftHandPinky2
+    400038: AnimData_LeftHandPinky3
+    400040: AnimData_LeftHandPinky4
+    400042: AnimData_LeftHandRing1
+    400044: AnimData_LeftHandRing2
+    400046: AnimData_LeftHandRing3
+    400048: AnimData_LeftHandRing4
+    400050: AnimData_LeftHandThumb1
+    400052: AnimData_LeftHandThumb2
+    400054: AnimData_LeftHandThumb3
+    400056: AnimData_LeftHandThumb4
+    400058: AnimData_LeftLeg
+    400060: AnimData_LeftShoulder
+    400062: AnimData_LeftToe_End
+    400064: AnimData_LeftToeBase
+    400066: AnimData_LeftUpLeg
+    400068: AnimData_Neck
+    400070: AnimData_RightArm
+    400072: AnimData_RightEye
+    400074: AnimData_RightFoot
+    400076: AnimData_RightForeArm
+    400078: AnimData_RightHand
+    400080: AnimData_RightHandIndex1
+    400082: AnimData_RightHandIndex2
+    400084: AnimData_RightHandIndex3
+    400086: AnimData_RightHandIndex4
+    400088: AnimData_RightHandMiddle1
+    400090: AnimData_RightHandMiddle2
+    400092: AnimData_RightHandMiddle3
+    400094: AnimData_RightHandMiddle4
+    400096: AnimData_RightHandPinky1
+    400098: AnimData_RightHandPinky2
+    400100: AnimData_RightHandPinky3
+    400102: AnimData_RightHandPinky4
+    400104: AnimData_RightHandRing1
+    400106: AnimData_RightHandRing2
+    400108: AnimData_RightHandRing3
+    400110: AnimData_RightHandRing4
+    400112: AnimData_RightHandThumb1
+    400114: AnimData_RightHandThumb2
+    400116: AnimData_RightHandThumb3
+    400118: AnimData_RightHandThumb4
+    400120: AnimData_RightLeg
+    400122: AnimData_RightShoulder
+    400124: AnimData_RightToe_End
+    400126: AnimData_RightToeBase
+    400128: AnimData_RightUpLeg
+    400130: AnimData_Spine
+    400132: AnimData_Spine1
+    400134: AnimData_Spine2
+    400136: Character
+    400138: Eyes
+    400140: Facial_Misc_GRP
+    400142: GreeKBoi_Ctrl_ChestEndEffector
+    400144: GreeKBoi_Ctrl_ChestOriginEffector
+    400146: GreeKBoi_Ctrl_Head
+    400148: GreeKBoi_Ctrl_HeadEffector
+    400150: GreeKBoi_Ctrl_Hips
+    400152: GreeKBoi_Ctrl_HipsEffector
+    400154: GreeKBoi_Ctrl_LeafLeftForeArmRoll1
+    400156: GreeKBoi_Ctrl_LeafLeftForeArmRoll2
+    400158: GreeKBoi_Ctrl_LeafLeftForeArmRoll3
+    400160: GreeKBoi_Ctrl_LeafRightForeArmRoll1
+    400162: GreeKBoi_Ctrl_LeafRightForeArmRoll2
+    400164: GreeKBoi_Ctrl_LeafRightForeArmRoll3
+    400166: GreeKBoi_Ctrl_LeftAnkleEffector
+    400168: GreeKBoi_Ctrl_LeftArm
+    400170: GreeKBoi_Ctrl_LeftElbowEffector
+    400172: GreeKBoi_Ctrl_LeftFoot
+    400174: GreeKBoi_Ctrl_LeftFootEffector
+    400176: GreeKBoi_Ctrl_LeftForeArm
+    400178: GreeKBoi_Ctrl_LeftHand
+    400180: GreeKBoi_Ctrl_LeftHandIndex1
+    400182: GreeKBoi_Ctrl_LeftHandIndex2
+    400184: GreeKBoi_Ctrl_LeftHandIndex3
+    400186: GreeKBoi_Ctrl_LeftHandIndex4
+    400188: GreeKBoi_Ctrl_LeftHandIndexEffector
+    400190: GreeKBoi_Ctrl_LeftHandMiddle1
+    400192: GreeKBoi_Ctrl_LeftHandMiddle2
+    400194: GreeKBoi_Ctrl_LeftHandMiddle3
+    400196: GreeKBoi_Ctrl_LeftHandMiddle4
+    400198: GreeKBoi_Ctrl_LeftHandMiddleEffector
+    400200: GreeKBoi_Ctrl_LeftHandPinky1
+    400202: GreeKBoi_Ctrl_LeftHandPinky2
+    400204: GreeKBoi_Ctrl_LeftHandPinky3
+    400206: GreeKBoi_Ctrl_LeftHandPinky4
+    400208: GreeKBoi_Ctrl_LeftHandPinkyEffector
+    400210: GreeKBoi_Ctrl_LeftHandRing1
+    400212: GreeKBoi_Ctrl_LeftHandRing2
+    400214: GreeKBoi_Ctrl_LeftHandRing3
+    400216: GreeKBoi_Ctrl_LeftHandRing4
+    400218: GreeKBoi_Ctrl_LeftHandRingEffector
+    400220: GreeKBoi_Ctrl_LeftHandThumb1
+    400222: GreeKBoi_Ctrl_LeftHandThumb2
+    400224: GreeKBoi_Ctrl_LeftHandThumb3
+    400226: GreeKBoi_Ctrl_LeftHandThumb4
+    400228: GreeKBoi_Ctrl_LeftHandThumbEffector
+    400230: GreeKBoi_Ctrl_LeftHipEffector
+    400232: GreeKBoi_Ctrl_LeftKneeEffector
+    400234: GreeKBoi_Ctrl_LeftLeg
+    400236: GreeKBoi_Ctrl_LeftShoulder
+    400238: GreeKBoi_Ctrl_LeftShoulderEffector
+    400240: GreeKBoi_Ctrl_LeftToeBase
+    400242: GreeKBoi_Ctrl_LeftUpLeg
+    400244: GreeKBoi_Ctrl_LeftWristEffector
+    400246: GreeKBoi_Ctrl_Neck
+    400248: GreeKBoi_Ctrl_Neck1
+    400250: GreeKBoi_Ctrl_Neck2
+    400252: GreeKBoi_Ctrl_Reference
+    400254: GreeKBoi_Ctrl_RightAnkleEffector
+    400256: GreeKBoi_Ctrl_RightArm
+    400258: GreeKBoi_Ctrl_RightElbowEffector
+    400260: GreeKBoi_Ctrl_RightFoot
+    400262: GreeKBoi_Ctrl_RightFootEffector
+    400264: GreeKBoi_Ctrl_RightForeArm
+    400266: GreeKBoi_Ctrl_RightHand
+    400268: GreeKBoi_Ctrl_RightHandIndex1
+    400270: GreeKBoi_Ctrl_RightHandIndex2
+    400272: GreeKBoi_Ctrl_RightHandIndex3
+    400274: GreeKBoi_Ctrl_RightHandIndex4
+    400276: GreeKBoi_Ctrl_RightHandIndexEffector
+    400278: GreeKBoi_Ctrl_RightHandMiddle1
+    400280: GreeKBoi_Ctrl_RightHandMiddle2
+    400282: GreeKBoi_Ctrl_RightHandMiddle3
+    400284: GreeKBoi_Ctrl_RightHandMiddle4
+    400286: GreeKBoi_Ctrl_RightHandMiddleEffector
+    400288: GreeKBoi_Ctrl_RightHandPinky1
+    400290: GreeKBoi_Ctrl_RightHandPinky2
+    400292: GreeKBoi_Ctrl_RightHandPinky3
+    400294: GreeKBoi_Ctrl_RightHandPinky4
+    400296: GreeKBoi_Ctrl_RightHandPinkyEffector
+    400298: GreeKBoi_Ctrl_RightHandRing1
+    400300: GreeKBoi_Ctrl_RightHandRing2
+    400302: GreeKBoi_Ctrl_RightHandRing3
+    400304: GreeKBoi_Ctrl_RightHandRing4
+    400306: GreeKBoi_Ctrl_RightHandRingEffector
+    400308: GreeKBoi_Ctrl_RightHandThumb1
+    400310: GreeKBoi_Ctrl_RightHandThumb2
+    400312: GreeKBoi_Ctrl_RightHandThumb3
+    400314: GreeKBoi_Ctrl_RightHandThumb4
+    400316: GreeKBoi_Ctrl_RightHandThumbEffector
+    400318: GreeKBoi_Ctrl_RightHipEffector
+    400320: GreeKBoi_Ctrl_RightKneeEffector
+    400322: GreeKBoi_Ctrl_RightLeg
+    400324: GreeKBoi_Ctrl_RightShoulder
+    400326: GreeKBoi_Ctrl_RightShoulderEffector
+    400328: GreeKBoi_Ctrl_RightToeBase
+    400330: GreeKBoi_Ctrl_RightUpLeg
+    400332: GreeKBoi_Ctrl_RightWristEffector
+    400334: GreeKBoi_Ctrl_Spine
+    400336: GreeKBoi_Ctrl_Spine1
+    400338: GreeKBoi_Ctrl_Spine2
+    400340: GreeKBoi_Ctrl_Spine3
+    400342: GreeKBoi_Head
+    400344: GreeKBoi_Hips
+    400346: GreeKBoi_LeafLeftForeArmRoll1
+    400348: GreeKBoi_LeafLeftForeArmRoll2
+    400350: GreeKBoi_LeafLeftForeArmRoll3
+    400352: GreeKBoi_LeafRightForeArmRoll1
+    400354: GreeKBoi_LeafRightForeArmRoll2
+    400356: GreeKBoi_LeafRightForeArmRoll3
+    400358: GreeKBoi_LeftArm
+    400360: GreeKBoi_LeftFoot
+    400362: GreeKBoi_LeftForeArm
+    400364: GreeKBoi_LeftHand
+    400366: GreeKBoi_LeftHandIndex1
+    400368: GreeKBoi_LeftHandIndex2
+    400370: GreeKBoi_LeftHandIndex3
+    400372: GreeKBoi_LeftHandIndex4
+    400374: GreeKBoi_LeftHandMiddle1
+    400376: GreeKBoi_LeftHandMiddle2
+    400378: GreeKBoi_LeftHandMiddle3
+    400380: GreeKBoi_LeftHandMiddle4
+    400382: GreeKBoi_LeftHandPinky1
+    400384: GreeKBoi_LeftHandPinky2
+    400386: GreeKBoi_LeftHandPinky3
+    400388: GreeKBoi_LeftHandPinky4
+    400390: GreeKBoi_LeftHandRing1
+    400392: GreeKBoi_LeftHandRing2
+    400394: GreeKBoi_LeftHandRing3
+    400396: GreeKBoi_LeftHandRing4
+    400398: GreeKBoi_LeftHandThumb1
+    400400: GreeKBoi_LeftHandThumb2
+    400402: GreeKBoi_LeftHandThumb3
+    400404: GreeKBoi_LeftHandThumb4
+    400406: GreeKBoi_LeftLeg
+    400408: GreeKBoi_LeftShoulder
+    400410: GreeKBoi_LeftToeBase
+    400412: GreeKBoi_LeftUpLeg
+    400414: GreeKBoi_Neck
+    400416: GreeKBoi_Neck1
+    400418: GreeKBoi_Neck2
+    400420: GreeKBoi_Reference
+    400422: GreeKBoi_RightArm
+    400424: GreeKBoi_RightFoot
+    400426: GreeKBoi_RightForeArm
+    400428: GreeKBoi_RightHand
+    400430: GreeKBoi_RightHandIndex1
+    400432: GreeKBoi_RightHandIndex2
+    400434: GreeKBoi_RightHandIndex3
+    400436: GreeKBoi_RightHandIndex4
+    400438: GreeKBoi_RightHandMiddle1
+    400440: GreeKBoi_RightHandMiddle2
+    400442: GreeKBoi_RightHandMiddle3
+    400444: GreeKBoi_RightHandMiddle4
+    400446: GreeKBoi_RightHandPinky1
+    400448: GreeKBoi_RightHandPinky2
+    400450: GreeKBoi_RightHandPinky3
+    400452: GreeKBoi_RightHandPinky4
+    400454: GreeKBoi_RightHandRing1
+    400456: GreeKBoi_RightHandRing2
+    400458: GreeKBoi_RightHandRing3
+    400460: GreeKBoi_RightHandRing4
+    400462: GreeKBoi_RightHandThumb1
+    400464: GreeKBoi_RightHandThumb2
+    400466: GreeKBoi_RightHandThumb3
+    400468: GreeKBoi_RightHandThumb4
+    400470: GreeKBoi_RightLeg
+    400472: GreeKBoi_RightShoulder
+    400474: GreeKBoi_RightToeBase
+    400476: GreeKBoi_RightUpLeg
+    400478: GreeKBoi_Spine
+    400480: GreeKBoi_Spine1
+    400482: GreeKBoi_Spine2
+    400484: GreeKBoi_Spine3
+    400486: Joint_GRP
+    400488: LeftEye
+    400490: LeftEye_Aim_CTRL_GuideCurve
+    400492: Mesh_Body
+    400494: Mesh_Bottoms
+    400496: Mesh_default1
+    400498: Mesh_Eyelashes
+    400500: Mesh_GRP
+    400502: Mesh_Hair
+    400504: Mesh_Shoes
+    400506: Mesh_Tops
+    400508: RightEye
+    400510: RightEye_Aim_CTRL_GuideCurve
+    400512: //RootNode
+    2100000: Bodymat
+    2100002: Bottommat
+    2100004: Hairmat
+    2100006: Shoesmat
+    2100008: Topmat
+    4300000: Mesh_Body
+    4300002: Mesh_Bottoms
+    4300004: Mesh_Eyelashes
+    4300006: Mesh_Hair
+    4300008: Mesh_Shoes
+    4300010: Mesh_Tops
+    4300012: Mesh_default1
+    7400000: Take 001
+    9500000: //RootNode
+    13700000: Mesh_Body
+    13700002: Mesh_Bottoms
+    13700004: Mesh_default1
+    13700006: Mesh_Eyelashes
+    13700008: Mesh_Hair
+    13700010: Mesh_Shoes
+    13700012: Mesh_Tops
+    2186277476908879412: ImportLogs
+  externalObjects: {}
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: "\nClip 'Take 001' has import animation warnings that
+      might lower retargeting quality:\nNote: Activate translation DOF on avatar to
+      improve retargeting quality.\n\t'GreeKBoi_Spine3' is inbetween humanoid transforms
+      and has rotation animation that will be discarded.\n\t'GreeKBoi_RightForeArm'
+      has translation animation that will be discarded.\n\t'GreeKBoi_Neck1' is inbetween
+      humanoid transforms and has rotation animation that will be discarded.\n\t'GreeKBoi_Neck2'
+      is inbetween humanoid transforms and has rotation animation that will be discarded.\n"
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: Take 001
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 185
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 1
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves:
+      - name: Curve
+        curve:
+          serializedVersion: 2
+          curve:
+          - serializedVersion: 3
+            time: -0.9958496
+            value: 1.1497803
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          - serializedVersion: 3
+            time: 0.9525788
+            value: 1.1503166
+            inSlope: 0
+            outSlope: 0
+            tangentMode: 0
+            weightedMode: 0
+            inWeight: 0
+            outWeight: 0
+          preInfinity: 2
+          postInfinity: 2
+          rotationOrder: 4
+      events: []
+      transformMask: []
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    preserveHierarchy: 0
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    previousCalculatedGlobalScale: 0.01
+    hasPreviousCalculatedGlobalScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human:
+    - boneName: GreeKBoi_Hips
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftUpLeg
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightUpLeg
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftLeg
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightLeg
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftFoot
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightFoot
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_Spine
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_Spine1
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_Neck
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_Head
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftShoulder
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightShoulder
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftArm
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightArm
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftForeArm
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightForeArm
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHand
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHand
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftToeBase
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightToeBase
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: Eyes
+      humanName: RightEye
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandThumb1
+      humanName: Left Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandThumb2
+      humanName: Left Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandThumb3
+      humanName: Left Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandIndex1
+      humanName: Left Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandIndex2
+      humanName: Left Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandIndex3
+      humanName: Left Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandMiddle1
+      humanName: Left Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandMiddle2
+      humanName: Left Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandMiddle3
+      humanName: Left Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandRing1
+      humanName: Left Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandRing2
+      humanName: Left Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandRing3
+      humanName: Left Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandPinky1
+      humanName: Left Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandPinky2
+      humanName: Left Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_LeftHandPinky3
+      humanName: Left Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandThumb1
+      humanName: Right Thumb Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandThumb2
+      humanName: Right Thumb Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandThumb3
+      humanName: Right Thumb Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandIndex1
+      humanName: Right Index Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandIndex2
+      humanName: Right Index Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandIndex3
+      humanName: Right Index Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandMiddle1
+      humanName: Right Middle Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandMiddle2
+      humanName: Right Middle Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandMiddle3
+      humanName: Right Middle Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandRing1
+      humanName: Right Ring Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandRing2
+      humanName: Right Ring Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandRing3
+      humanName: Right Ring Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandPinky1
+      humanName: Right Little Proximal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandPinky2
+      humanName: Right Little Intermediate
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_RightHandPinky3
+      humanName: Right Little Distal
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: GreeKBoi_Spine2
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: talking beat gesture(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Character
+      parentName: talking beat gesture(Clone)
+      position: {x: 0.0019065856, y: -0.001046429, z: 0.025423774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Facial_Misc_GRP
+      parentName: Character
+      position: {x: -0.0019065856, y: 0.001046429, z: -0.025423774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftEye_Aim_CTRL_GuideCurve
+      parentName: Facial_Misc_GRP
+      position: {x: -0.031918146, y: 1.7128792, z: 0.26613092}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightEye_Aim_CTRL_GuideCurve
+      parentName: Facial_Misc_GRP
+      position: {x: 0.02868554, y: 1.7115588, z: 0.2660822}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Joint_GRP
+      parentName: Character
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_Joint_GRP
+      parentName: Joint_GRP
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_Hips
+      parentName: AnimData_Joint_GRP
+      position: {x: -0.0010492684, y: 1.0288873, z: -0.024950115}
+      rotation: {x: 0.000027898974, y: 0.000023249295, z: -0.0007172322, w: 0.99999976}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftUpLeg
+      parentName: AnimData_Hips
+      position: {x: -0.09214326, y: -0.069843285, z: -0.0042079315}
+      rotation: {x: -0.0003220218, y: 0.02284836, z: 0.9997148, w: 0.006949124}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftLeg
+      parentName: AnimData_LeftUpLeg
+      position: {x: -5.3290704e-17, y: 0.4378028, z: -1.7763568e-17}
+      rotation: {x: -0.07575653, y: -0.0010248789, z: 0.015873622, w: 0.9969995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftFoot
+      parentName: AnimData_LeftLeg
+      position: {x: 1.7763568e-17, y: 0.40592867, z: -8.881784e-18}
+      rotation: {x: 0.44160813, y: 0.050757725, z: -0.029946588, w: 0.8952704}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftToeBase
+      parentName: AnimData_LeftFoot
+      position: {x: -3.5527136e-17, y: 0.14494905, z: 7.9936054e-17}
+      rotation: {x: 0.36214253, y: 0.025009666, z: -0.009720608, w: 0.93173647}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftToe_End
+      parentName: AnimData_LeftToeBase
+      position: {x: 1.7763568e-17, y: 0.09496216, z: -4.440892e-18}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightUpLeg
+      parentName: AnimData_Hips
+      position: {x: 0.09062707, y: -0.06846787, z: 0.0029464178}
+      rotation: {x: -0.00005922724, y: 0.019923387, z: 0.9997741, w: 0.007406}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightLeg
+      parentName: AnimData_RightUpLeg
+      position: {x: -1.7763568e-17, y: 0.44254822, z: -2.6645352e-17}
+      rotation: {x: -0.07920429, y: -0.0013967543, z: 0.017222611, w: 0.99670863}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightFoot
+      parentName: AnimData_RightLeg
+      position: {x: -1.7763568e-17, y: 0.4025423, z: -8.881784e-18}
+      rotation: {x: 0.45311362, y: -0.0047948887, z: 0.0062383367, w: 0.8914181}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightToeBase
+      parentName: AnimData_RightFoot
+      position: {x: -1.7763568e-17, y: 0.14831445, z: -1.7763568e-17}
+      rotation: {x: 0.3601866, y: -0.016684677, z: 0.0064431624, w: 0.93270886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightToe_End
+      parentName: AnimData_RightToeBase
+      position: {x: 3.5527136e-17, y: 0.0947958, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_Spine
+      parentName: AnimData_Hips
+      position: {x: 0.0005463672, y: 0.09499083, z: -0.011315618}
+      rotation: {x: -0.040008217, y: -0.00004024907, z: 0.00042420573, w: 0.9991993}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_Spine1
+      parentName: AnimData_Spine
+      position: {x: -0, y: 0.110565946, z: -8.881784e-18}
+      rotation: {x: 0.0047441274, y: 0.000016281085, z: 0.0034317754, w: 0.9999829}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_Spine2
+      parentName: AnimData_Spine1
+      position: {x: 2.220446e-18, y: 0.13652991, z: -3.5527136e-17}
+      rotation: {x: -1.5061021e-38, y: 5.421011e-20, z: 2.778268e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftShoulder
+      parentName: AnimData_Spine2
+      position: {x: -0.054323275, y: 0.09450612, z: 0.008943272}
+      rotation: {x: -0.49404916, y: 0.60806376, z: -0.51062, w: -0.35417676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftArm
+      parentName: AnimData_LeftShoulder
+      position: {x: 7.105427e-17, y: 0.11858338, z: 5.684342e-16}
+      rotation: {x: -0.040124584, y: 0.0015272448, z: -0.130967, w: 0.9905732}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftForeArm
+      parentName: AnimData_LeftArm
+      position: {x: -3.5527136e-17, y: 0.24755983, z: 2.842171e-16}
+      rotation: {x: -0.0000138723835, y: 0.00035900756, z: -0.008724842, w: 0.9999619}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHand
+      parentName: AnimData_LeftForeArm
+      position: {x: -7.105427e-17, y: 0.2509462, z: -5.684342e-16}
+      rotation: {x: 0.011576036, y: 0.082332104, z: 0.04083069, w: 0.9957009}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandIndex1
+      parentName: AnimData_LeftHand
+      position: {x: 0.0310441, y: 0.10178999, z: 0.0024779076}
+      rotation: {x: -0.008141034, y: 0.00079060416, z: -0.04545821, w: 0.9989328}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandIndex2
+      parentName: AnimData_LeftHandIndex1
+      position: {x: -0.00026638538, y: 0.034912374, z: 2.842171e-16}
+      rotation: {x: -0.0000016378353, y: -0.00018555963, z: 0.015422859, w: 0.9998811}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandIndex3
+      parentName: AnimData_LeftHandIndex2
+      position: {x: 0.0007494859, y: 0.03223957, z: 0}
+      rotation: {x: -0.0000002428821, y: -0.000022969467, z: -0.02362855, w: 0.9997208}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandIndex4
+      parentName: AnimData_LeftHandIndex3
+      position: {x: -0.00048310056, y: 0.020093352, z: -2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandMiddle1
+      parentName: AnimData_LeftHand
+      position: {x: 0.008815661, y: 0.105559826, z: -0.0017302677}
+      rotation: {x: -0.008196971, y: -0.0004888737, z: -0.03651153, w: 0.9992995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandMiddle2
+      parentName: AnimData_LeftHandMiddle1
+      position: {x: 0.00040417258, y: 0.039347637, z: -5.684342e-16}
+      rotation: {x: 0.0000020665882, y: -0.00029173665, z: -0.016633952, w: 0.99986166}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandMiddle3
+      parentName: AnimData_LeftHandMiddle2
+      position: {x: -0.0006274589, y: 0.027253332, z: 0}
+      rotation: {x: -0.000000034062616, y: -0.00002050422, z: 0.01596425, w: 0.99987257}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandMiddle4
+      parentName: AnimData_LeftHandMiddle3
+      position: {x: 0.00022328629, y: 0.024978887, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandPinky1
+      parentName: AnimData_LeftHand
+      position: {x: -0.030539785, y: 0.08925734, z: 0.002552384}
+      rotation: {x: -0.008163978, y: 0.00017075604, z: -0.04736436, w: 0.9988443}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandPinky2
+      parentName: AnimData_LeftHandPinky1
+      position: {x: -0.00046662928, y: 0.040798917, z: -5.684342e-16}
+      rotation: {x: -0.000008930901, y: 0.00026917283, z: -0.022169957, w: 0.9997542}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandPinky3
+      parentName: AnimData_LeftHandPinky2
+      position: {x: -0.0010099354, y: 0.018084541, z: 0}
+      rotation: {x: -0.000032360887, y: -0.0015165086, z: 0.07677416, w: 0.99704736}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandPinky4
+      parentName: AnimData_LeftHandPinky3
+      position: {x: 0.0014765647, y: 0.015037041, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandRing1
+      parentName: AnimData_LeftHand
+      position: {x: -0.009319975, y: 0.09976176, z: -0.0017470847}
+      rotation: {x: -0.008180723, y: -0.00015963409, z: -0.038879916, w: 0.9992104}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandRing2
+      parentName: AnimData_LeftHandRing1
+      position: {x: 0.00018459898, y: 0.03344151, z: -2.842171e-16}
+      rotation: {x: -0.00000023627426, y: -0.000022070528, z: -0.008435389, w: 0.9999644}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandRing3
+      parentName: AnimData_LeftHandRing2
+      position: {x: -0.00027316096, y: 0.024074703, z: 5.684342e-16}
+      rotation: {x: 0.0000005806916, y: -0.00008815007, z: 0.007326393, w: 0.9999732}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandRing4
+      parentName: AnimData_LeftHandRing3
+      position: {x: 0.000088561974, y: 0.026855413, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandThumb1
+      parentName: AnimData_LeftHand
+      position: {x: 0.022706665, y: 0.033692595, z: 0.016012179}
+      rotation: {x: 0.2154417, y: -0.05697753, z: -0.29147622, w: 0.9302581}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandThumb2
+      parentName: AnimData_LeftHandThumb1
+      position: {x: -0.0003284411, y: 0.0403781, z: -2.842171e-16}
+      rotation: {x: 0.000038455168, y: -0.0012448693, z: -0.02305927, w: 0.9997333}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandThumb3
+      parentName: AnimData_LeftHandThumb2
+      position: {x: -0.0021394496, y: 0.039392844, z: 0}
+      rotation: {x: -0.000017426684, y: -0.0009787567, z: 0.07214732, w: 0.99739355}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftHandThumb4
+      parentName: AnimData_LeftHandThumb3
+      position: {x: 0.0024678907, y: 0.027295146, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_Neck
+      parentName: AnimData_Spine2
+      position: {x: 0.0005951131, y: 0.15506607, z: 0.01444279}
+      rotation: {x: 0.035239287, y: -0.00016375295, z: -0.0031368064, w: 0.999374}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_Head
+      parentName: AnimData_Neck
+      position: {x: -0.0007338027, y: 0.10484335, z: 0.023197245}
+      rotation: {x: 1.323489e-23, y: 1.323489e-23, z: 5.602138e-23, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_HeadTop_End
+      parentName: AnimData_Head
+      position: {x: 0.00052367814, y: 0.1805125, z: 0.039275732}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_LeftEye
+      parentName: AnimData_Head
+      position: {x: -0.031553127, y: 0.08310486, z: 0.06873574}
+      rotation: {x: 2.7755576e-17, y: 4.065758e-20, z: -7.991756e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightEye
+      parentName: AnimData_Head
+      position: {x: 0.029050559, y: 0.08178445, z: 0.06868701}
+      rotation: {x: 2.7755576e-17, y: 4.065758e-20, z: -7.991756e-19, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightShoulder
+      parentName: AnimData_Spine2
+      position: {x: 0.05509586, y: 0.09317804, z: 0.010640959}
+      rotation: {x: 0.51627207, y: 0.5745767, z: -0.49627945, w: 0.39627206}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightArm
+      parentName: AnimData_RightShoulder
+      position: {x: -0, y: 0.11754072, z: 0}
+      rotation: {x: -0.025454063, y: -0.0011586365, z: 0.07739644, w: 0.9966747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightForeArm
+      parentName: AnimData_RightArm
+      position: {x: -1.0658141e-16, y: 0.257287, z: 8.5265126e-16}
+      rotation: {x: 0.000000276631, y: -0.000001148864, z: 0.00872617, w: 0.9999619}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHand
+      parentName: AnimData_RightForeArm
+      position: {x: 1.4210854e-16, y: 0.24167955, z: 0}
+      rotation: {x: 0.011050557, y: -0.06223228, z: -0.04515153, w: 0.99697864}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandIndex1
+      parentName: AnimData_RightHand
+      position: {x: -0.03318222, y: 0.10090478, z: 0.0024266709}
+      rotation: {x: -0.00818215, y: -0.00081028714, z: 0.05413122, w: 0.9985}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandIndex2
+      parentName: AnimData_RightHandIndex1
+      position: {x: 0.0005896267, y: 0.035187762, z: 0}
+      rotation: {x: -0.0000057347906, y: 0.0004682944, z: -0.028812813, w: 0.99958473}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandIndex3
+      parentName: AnimData_RightHandIndex2
+      position: {x: -0.0013312028, y: 0.032550164, z: 0}
+      rotation: {x: -0.000000026861732, y: -0.000077437304, z: 0.039043833, w: 0.9992375}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandIndex4
+      parentName: AnimData_RightHandIndex3
+      position: {x: 0.0007415761, y: 0.01991633, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandMiddle1
+      parentName: AnimData_RightHand
+      position: {x: -0.0096235, y: 0.10482271, z: -0.0017279492}
+      rotation: {x: -0.008227326, y: 0.00019277261, z: 0.041012723, w: 0.99912477}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandMiddle2
+      parentName: AnimData_RightHandMiddle1
+      position: {x: -0.0003799348, y: 0.04006269, z: 2.842171e-16}
+      rotation: {x: 0.00000028395388, y: 0.00015440267, z: 0.013324373, w: 0.99991125}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandMiddle3
+      parentName: AnimData_RightHandMiddle2
+      position: {x: 0.00047450786, y: 0.027670499, z: -2.842171e-16}
+      rotation: {x: -0.0000006398379, y: -0.00014804828, z: -0.010473292, w: 0.99994516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandMiddle4
+      parentName: AnimData_RightHandMiddle3
+      position: {x: -0.00009457308, y: 0.025118532, z: 5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandPinky1
+      parentName: AnimData_RightHand
+      position: {x: 0.032652758, y: 0.08843471, z: 0.0024554678}
+      rotation: {x: -0.008199273, y: -0.00035850104, z: 0.043175742, w: 0.9990338}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandPinky2
+      parentName: AnimData_RightHandPinky1
+      position: {x: -0.00020115686, y: 0.038920462, z: 2.842171e-16}
+      rotation: {x: 0.000043836542, y: 0.0016938396, z: 0.03107202, w: 0.9995157}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandPinky3
+      parentName: AnimData_RightHandPinky2
+      position: {x: 0.0009486977, y: 0.016634034, z: -2.842171e-16}
+      rotation: {x: -0.0000015587196, y: -0.00029172478, z: -0.050753422, w: 0.99871117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandPinky4
+      parentName: AnimData_RightHandPinky3
+      position: {x: -0.0007475408, y: 0.016775228, z: 5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandRing1
+      parentName: AnimData_RightHand
+      position: {x: 0.010152961, y: 0.09909967, z: -0.0016041332}
+      rotation: {x: -0.008191685, y: -0.00053404097, z: 0.045858677, w: 0.99891424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandRing2
+      parentName: AnimData_RightHandRing1
+      position: {x: 0.0000065237737, y: 0.034302767, z: 0}
+      rotation: {x: 0.000000045788052, y: -0.0000149606885, z: 0.0018278095, w: 0.99999833}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandRing3
+      parentName: AnimData_RightHandRing2
+      position: {x: 0.00009853471, y: 0.025650786, z: -2.842171e-16}
+      rotation: {x: 0.0000004368053, y: -0.00000090720744, z: -0.0039020772, w: 0.99999243}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandRing4
+      parentName: AnimData_RightHandRing3
+      position: {x: -0.000105058476, y: 0.026618822, z: 2.842171e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandThumb1
+      parentName: AnimData_RightHand
+      position: {x: -0.024501588, y: 0.032680184, z: 0.017475216}
+      rotation: {x: 0.21573086, y: 0.056508485, z: 0.28589413, w: 0.9319504}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandThumb2
+      parentName: AnimData_RightHandThumb1
+      position: {x: -0.0004227987, y: 0.040921066, z: -5.684342e-16}
+      rotation: {x: 0.0000019144413, y: 0.00027987745, z: 0.01631994, w: 0.99986684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandThumb3
+      parentName: AnimData_RightHandThumb2
+      position: {x: 0.0009078812, y: 0.040701766, z: 2.842171e-16}
+      rotation: {x: -0.000000009857884, y: -0.00009405554, z: -0.020335665, w: 0.99979323}
+      scale: {x: 1, y: 1, z: 1}
+    - name: AnimData_RightHandThumb4
+      parentName: AnimData_RightHandThumb3
+      position: {x: -0.00048508248, y: 0.026399914, z: 5.684342e-16}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_GRP
+      parentName: Character
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Body
+      parentName: Mesh_GRP
+      position: {x: -0.0019065856, y: 0.001046429, z: -0.025423774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Bottoms
+      parentName: Mesh_GRP
+      position: {x: -0.0019065856, y: 0.001046429, z: -0.025423774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_default1
+      parentName: Mesh_GRP
+      position: {x: -0.0019065856, y: 0.001046429, z: -0.025423774}
+      rotation: {x: 0, y: 0.022671172, z: -0, w: 0.999743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Eyelashes
+      parentName: Mesh_GRP
+      position: {x: -0.0019065856, y: 0.001046429, z: -0.025423774}
+      rotation: {x: 0, y: 0.022671172, z: -0, w: 0.999743}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Hair
+      parentName: Mesh_GRP
+      position: {x: -0.0019065856, y: 0.001046429, z: -0.025423774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Shoes
+      parentName: Mesh_GRP
+      position: {x: -0.0019065856, y: 0.001046429, z: -0.025423774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Mesh_Tops
+      parentName: Mesh_GRP
+      position: {x: -0.0019065856, y: 0.001046429, z: -0.025423774}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Reference
+      parentName: talking beat gesture(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_ChestEndEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: -0, y: 1.4661304, z: -0.008419296}
+      rotation: {x: 0.042035844, y: 1.6219084e-17, z: -1.1347343e-16, w: 0.9991161}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_ChestOriginEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 2.9465328e-17, y: 1.0699999, z: 5.8930656e-17}
+      rotation: {x: 0.0027980928, y: 7.9263517e-19, z: -2.222151e-16, w: 0.9999961}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_HeadEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.0063025127, y: 1.8304422, z: 0.016709697}
+      rotation: {x: 0.029974852, y: 0.0010127012, z: -0.010332476, w: 0.99949676}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Hips
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 1.3922206e-17, y: 1, z: 2.784441e-17}
+      rotation: {x: 3.0817192e-16, y: 5.5511145e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftUpLeg
+      parentName: GreeKBoi_Ctrl_Hips
+      position: {x: -0.0891, y: -0.06270004, z: 0}
+      rotation: {x: 0.0000011261451, y: -0.00000010723541, z: 1.209014e-13, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftLeg
+      parentName: GreeKBoi_Ctrl_LeftUpLeg
+      position: {x: -0.025630083, y: -0.44878638, z: 0}
+      rotation: {x: -0.0000011857497, y: 0.00000012213651, z: -0.000000044703494,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftFoot
+      parentName: GreeKBoi_Ctrl_LeftLeg
+      position: {x: 0.03141204, y: -0.43220466, z: -0.085272275}
+      rotation: {x: 0.000000059604645, y: -0.000000014901161, z: 0.00000004470348,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftToeBase
+      parentName: GreeKBoi_Ctrl_LeftFoot
+      position: {x: -0.043762263, y: -0.055347394, z: 0.19942299}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightUpLeg
+      parentName: GreeKBoi_Ctrl_Hips
+      position: {x: 0.0891, y: -0.06270004, z: 0}
+      rotation: {x: 0.00000066610266, y: 0.00000006775713, z: -4.5664027e-14, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightLeg
+      parentName: GreeKBoi_Ctrl_RightUpLeg
+      position: {x: 0.025630083, y: -0.44878638, z: 0}
+      rotation: {x: -0.0000007257073, y: -0.00000008265827, z: 0.000000029802326,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightFoot
+      parentName: GreeKBoi_Ctrl_RightLeg
+      position: {x: -0.03141204, y: -0.43220466, z: -0.085272275}
+      rotation: {x: 0.00000005960464, y: 0.000000014901161, z: -0.00000002980232,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightToeBase
+      parentName: GreeKBoi_Ctrl_RightFoot
+      position: {x: 0.043762263, y: -0.055347394, z: 0.19942299}
+      rotation: {x: 2.2365468e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Spine
+      parentName: GreeKBoi_Ctrl_Hips
+      position: {x: -0, y: 0.07, z: 0}
+      rotation: {x: 0.0027980923, y: 8.4679796e-17, z: -7.9263507e-19, w: 0.9999961}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Spine1
+      parentName: GreeKBoi_Ctrl_Spine
+      position: {x: -0, y: 0.1082901, z: 0}
+      rotation: {x: 0.005596145, y: 8.6091105e-17, z: 2.2045937e-16, w: 0.9999844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Spine2
+      parentName: GreeKBoi_Ctrl_Spine1
+      position: {x: -0, y: 0.1082901, z: 0}
+      rotation: {x: 0.005596147, y: 1.2949768e-16, z: 8.8853366e-17, w: 0.9999844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Spine3
+      parentName: GreeKBoi_Ctrl_Spine2
+      position: {x: -0, y: 0.1082901, z: -0.019845767}
+      rotation: {x: 0.028054116, y: -6.708902e-17, z: -1.5717562e-16, w: 0.99960643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftShoulder
+      parentName: GreeKBoi_Ctrl_Spine3
+      position: {x: -0.07, y: 0.071015164, z: 0}
+      rotation: {x: -4.8704394e-21, y: 1.3877788e-17, z: -1.4823077e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftArm
+      parentName: GreeKBoi_Ctrl_LeftShoulder
+      position: {x: -0.11258659, y: 0.000001373291, z: -0.026249455}
+      rotation: {x: 0.14930756, y: 0.4423916, z: 0.5277487, w: 0.709562}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftForeArm
+      parentName: GreeKBoi_Ctrl_LeftArm
+      position: {x: -0.24686275, y: -0.005833435, z: -0.034463037}
+      rotation: {x: -0.0030900917, y: 0.52092534, z: -0.0061104866, w: 0.8535749}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeafLeftForeArmRoll1
+      parentName: GreeKBoi_Ctrl_LeftForeArm
+      position: {x: -0.0747866, y: -0.0017481995, z: 1.7763568e-17}
+      rotation: {x: -0.08849252, y: -0.0020682244, z: 0.0000019241966, w: 0.9960747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeafLeftForeArmRoll2
+      parentName: GreeKBoi_Ctrl_LeftForeArm
+      position: {x: -0.14957325, y: -0.003496399, z: 1.7763568e-17}
+      rotation: {x: -0.17628199, y: -0.0041208486, z: 0.0000019362412, w: 0.9843311}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeafLeftForeArmRoll3
+      parentName: GreeKBoi_Ctrl_LeftForeArm
+      position: {x: -0.22435986, y: -0.0052445983, z: 1.7763568e-17}
+      rotation: {x: -0.26269263, y: -0.0061404444, z: 0.0000013889227, w: 0.96486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHand
+      parentName: GreeKBoi_Ctrl_LeftForeArm
+      position: {x: -0.24928874, y: -0.0058273314, z: 1.7763568e-17}
+      rotation: {x: -0.4114856, y: -0.16645747, z: -0.1935606, w: 0.87493193}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandIndex1
+      parentName: GreeKBoi_Ctrl_LeftHand
+      position: {x: -0.10260704, y: -0.0030232237, z: 0.03471669}
+      rotation: {x: -0.006830852, y: -0.00072123227, z: 0.2480191, w: 0.9687308}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandIndex2
+      parentName: GreeKBoi_Ctrl_LeftHandIndex1
+      position: {x: -0.030516433, y: -0.0032234192, z: -0.00084986206}
+      rotation: {x: -0.019485135, y: -0.0014900519, z: 0.47817758, w: 0.87804574}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandIndex3
+      parentName: GreeKBoi_Ctrl_LeftHandIndex2
+      position: {x: -0.026439972, y: -0.0020231628, z: -0.0010836887}
+      rotation: {x: 0.0029699837, y: 0.00022726385, z: -0.07286845, w: 0.9973371}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandIndex4
+      parentName: GreeKBoi_Ctrl_LeftHandIndex3
+      position: {x: -0.01950882, y: -0.0014927672, z: -0.0007996082}
+      rotation: {x: -0.0000003279471, y: 0.00000011391676, z: 0.000000109326734, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandMiddle1
+      parentName: GreeKBoi_Ctrl_LeftHand
+      position: {x: -0.104524076, y: 0.0011611938, z: 0.013046841}
+      rotation: {x: -0.01685117, y: -0.002414469, z: 0.2427448, w: 0.96994084}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandMiddle2
+      parentName: GreeKBoi_Ctrl_LeftHandMiddle1
+      position: {x: -0.034254912, y: -0.0049086, z: -0.0024267053}
+      rotation: {x: -0.034851782, y: -0.0035412407, z: 0.4989428, w: 0.8659266}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandMiddle3
+      parentName: GreeKBoi_Ctrl_LeftHandMiddle2
+      position: {x: -0.027443085, y: -0.002789154, z: -0.0019367217}
+      rotation: {x: -0.0013582942, y: -0.0001376086, z: 0.0194527, w: 0.99980986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandMiddle4
+      parentName: GreeKBoi_Ctrl_LeftHandMiddle3
+      position: {x: -0.019904556, y: -0.0020228575, z: -0.0014047193}
+      rotation: {x: 0.000000056061644, y: -0.00000017238297, z: 0.00000054957525,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandPinky1
+      parentName: GreeKBoi_Ctrl_LeftHand
+      position: {x: -0.09370857, y: -0.006742554, z: -0.02771304}
+      rotation: {x: -0.007210061, y: -0.0006542241, z: 0.23415397, w: 0.9721726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandPinky2
+      parentName: GreeKBoi_Ctrl_LeftHandPinky1
+      position: {x: -0.025669707, y: -0.002330017, z: -0.0007968521}
+      rotation: {x: 0.0000012514147, y: 0.0000005050761, z: 0.4503841, w: 0.8928349}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandPinky3
+      parentName: GreeKBoi_Ctrl_LeftHandPinky2
+      position: {x: -0.019664153, y: -0.0017848205, z: 1.7763568e-17}
+      rotation: {x: -0.0000003893701, y: -0.00000018924754, z: -0.0000004699412, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandPinky4
+      parentName: GreeKBoi_Ctrl_LeftHandPinky3
+      position: {x: -0.0165979, y: -0.0015065002, z: 0.000000009536743}
+      rotation: {x: 2.0780162e-15, y: -0.000000023849482, z: 0.00000008863268, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandRing1
+      parentName: GreeKBoi_Ctrl_LeftHand
+      position: {x: -0.102333374, y: -0.0035865782, z: -0.007931595}
+      rotation: {x: -0.0036520485, y: 0.00000025058338, z: 0.293785, w: 0.95586455}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandRing2
+      parentName: GreeKBoi_Ctrl_LeftHandRing1
+      position: {x: -0.028233718, y: -2.842171e-16, z: -0.00035088538}
+      rotation: {x: -0.0051468746, y: 0.0000009233746, z: 0.41417414, w: 0.91018313}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandRing3
+      parentName: GreeKBoi_Ctrl_LeftHandRing2
+      position: {x: -0.02304344, y: 0, z: -0.0002863884}
+      rotation: {x: -0.0014822568, y: 0.00000027021966, z: 0.11925395, w: 0.9928627}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandRing4
+      parentName: GreeKBoi_Ctrl_LeftHandRing3
+      position: {x: -0.019232025, y: 0, z: -0.00023902893}
+      rotation: {x: 0.0000004707247, y: 0.00000002788006, z: 0.0000002715017, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandThumb1
+      parentName: GreeKBoi_Ctrl_LeftHand
+      position: {x: -0.041336287, y: -0.018623352, z: 0.043038644}
+      rotation: {x: 0.095063746, y: -0.16107683, z: 0.029332982, w: 0.9819148}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandThumb2
+      parentName: GreeKBoi_Ctrl_LeftHandThumb1
+      position: {x: -0.020969009, y: -0.013359527, z: 0.008634088}
+      rotation: {x: -0.015995834, y: -0.016558062, z: -0.16821697, w: 0.9854811}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandThumb3
+      parentName: GreeKBoi_Ctrl_LeftHandThumb2
+      position: {x: -0.02018898, y: -0.010408172, z: 0.011438034}
+      rotation: {x: 0.03910989, y: -0.10020975, z: -0.02215694, w: 0.9939505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandThumb4
+      parentName: GreeKBoi_Ctrl_LeftHandThumb3
+      position: {x: -0.021170348, y: -0.010914153, z: 0.0119938}
+      rotation: {x: -0.0000005629494, y: -6.779319e-14, z: 0.00000011936498, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Neck
+      parentName: GreeKBoi_Ctrl_Spine3
+      position: {x: -0, y: 0.1082901, z: -0.015106237}
+      rotation: {x: -0.00000078179886, y: 0.00064188323, z: -0.009591567, w: 0.9999538}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Neck1
+      parentName: GreeKBoi_Ctrl_Neck
+      position: {x: 1.4210854e-16, y: 0.10930679, z: 0.0073150704}
+      rotation: {x: -0.00000091590397, y: -9.605598e-14, z: 0.00000010481045, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Neck2
+      parentName: GreeKBoi_Ctrl_Neck1
+      position: {x: -0, y: 0.10930679, z: 0.0012807917}
+      rotation: {x: 0.000000081685734, y: -1.1690124e-15, z: -0.000000015051059, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_Head
+      parentName: GreeKBoi_Ctrl_Neck2
+      position: {x: -0, y: 0.10930679, z: 0.00095408916}
+      rotation: {x: 3.0817192e-16, y: 5.5511145e-17, z: -5.551115e-17, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightShoulder
+      parentName: GreeKBoi_Ctrl_Spine3
+      position: {x: 0.07, y: 0.071015164, z: 0}
+      rotation: {x: -4.8704394e-21, y: -1.3877788e-17, z: 1.4823077e-21, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightArm
+      parentName: GreeKBoi_Ctrl_RightShoulder
+      position: {x: 0.11258659, y: 0.000001373291, z: -0.026249455}
+      rotation: {x: 0.11048004, y: -0.33439413, z: -0.56299794, w: 0.7476684}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightForeArm
+      parentName: GreeKBoi_Ctrl_RightArm
+      position: {x: 0.24686275, y: -0.005833435, z: -0.034463037}
+      rotation: {x: -0.004473947, y: -0.5677779, z: 0.0066953558, w: 0.8231424}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeafRightForeArmRoll1
+      parentName: GreeKBoi_Ctrl_RightForeArm
+      position: {x: 0.0747866, y: -0.0017481995, z: 1.7763568e-17}
+      rotation: {x: -0.09145981, y: 0.0021371692, z: -0.0000016645148, w: 0.9958065}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeafRightForeArmRoll2
+      parentName: GreeKBoi_Ctrl_RightForeArm
+      position: {x: 0.14957325, y: -0.003496399, z: 1.7763568e-17}
+      rotation: {x: -0.18215181, y: 0.0042570275, z: -0.00000008001774, w: 0.9832612}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeafRightForeArmRoll3
+      parentName: GreeKBoi_Ctrl_RightForeArm
+      position: {x: 0.22435986, y: -0.0052445983, z: 1.7763568e-17}
+      rotation: {x: -0.271318, y: 0.006342911, z: -0.00000016004206, w: 0.96246886}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHand
+      parentName: GreeKBoi_Ctrl_RightForeArm
+      position: {x: 0.24928874, y: -0.0058273314, z: 1.7763568e-17}
+      rotation: {x: -0.42606565, y: 0.20560572, z: 0.11355069, w: 0.8736708}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandIndex1
+      parentName: GreeKBoi_Ctrl_RightHand
+      position: {x: 0.10260704, y: -0.0030232237, z: 0.03471669}
+      rotation: {x: -0.0051285243, y: 0.0005418547, z: -0.18620819, w: 0.9824968}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandIndex2
+      parentName: GreeKBoi_Ctrl_RightHandIndex1
+      position: {x: 0.030516433, y: -0.0032234192, z: -0.00084986206}
+      rotation: {x: -0.010074258, y: 0.0007704484, z: -0.24722764, w: 0.9689048}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandIndex3
+      parentName: GreeKBoi_Ctrl_RightHandIndex2
+      position: {x: 0.026439972, y: -0.0020231628, z: -0.0010836887}
+      rotation: {x: -0.005231582, y: 0.0004001083, z: -0.12838982, w: 0.9917099}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandIndex4
+      parentName: GreeKBoi_Ctrl_RightHandIndex3
+      position: {x: 0.01950882, y: -0.0014927672, z: -0.0007996082}
+      rotation: {x: 0.00000014770768, y: -0.0000003725097, z: -0.00000032506208, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandMiddle1
+      parentName: GreeKBoi_Ctrl_RightHand
+      position: {x: 0.104524076, y: 0.0011611938, z: 0.013046841}
+      rotation: {x: -0.011958518, y: 0.001713352, z: -0.17227335, w: 0.98497516}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandMiddle2
+      parentName: GreeKBoi_Ctrl_RightHandMiddle1
+      position: {x: 0.034254912, y: -0.0049086, z: -0.0024267053}
+      rotation: {x: -0.01802465, y: 0.0018319306, z: -0.2580434, w: 0.9659635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandMiddle3
+      parentName: GreeKBoi_Ctrl_RightHandMiddle2
+      position: {x: 0.027443085, y: -0.002789154, z: -0.0019367217}
+      rotation: {x: -0.0053157434, y: 0.00054007076, z: -0.076098144, w: 0.99708605}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandMiddle4
+      parentName: GreeKBoi_Ctrl_RightHandMiddle3
+      position: {x: 0.019904556, y: -0.0020228575, z: -0.0014047193}
+      rotation: {x: -0.0000002857598, y: 0.00000027985294, z: 0.0000008442577, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandPinky1
+      parentName: GreeKBoi_Ctrl_RightHand
+      position: {x: 0.09370857, y: -0.006742554, z: -0.02771304}
+      rotation: {x: -0.0026332801, y: 0.00023863057, z: -0.085522994, w: 0.9963327}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandPinky2
+      parentName: GreeKBoi_Ctrl_RightHandPinky1
+      position: {x: 0.025669707, y: -0.002330017, z: -0.0007968521}
+      rotation: {x: -0.0000003468144, y: -0.000000016290631, z: -0.22728176, w: 0.97382903}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandPinky3
+      parentName: GreeKBoi_Ctrl_RightHandPinky2
+      position: {x: 0.019664153, y: -0.0017848205, z: 1.7763568e-17}
+      rotation: {x: 0.00000092507565, y: -0.000000051547403, z: -0.055636056, w: 0.9984511}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandPinky4
+      parentName: GreeKBoi_Ctrl_RightHandPinky3
+      position: {x: 0.0165979, y: -0.0015065002, z: 0.000000009536743}
+      rotation: {x: -0.0000002052039, y: 0.00000018992756, z: 0.12384304, w: 0.9923018}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandRing1
+      parentName: GreeKBoi_Ctrl_RightHand
+      position: {x: 0.102333374, y: -0.0035865782, z: -0.007931595}
+      rotation: {x: -0.00087835314, y: 0.00000014864479, z: -0.07065656, w: 0.9975003}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandRing2
+      parentName: GreeKBoi_Ctrl_RightHandRing1
+      position: {x: 0.028233718, y: -2.842171e-16, z: -0.00035088538}
+      rotation: {x: -0.0025961292, y: -0.00000075254115, z: -0.20891342, w: 0.9779307}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandRing3
+      parentName: GreeKBoi_Ctrl_RightHandRing2
+      position: {x: 0.02304344, y: 0, z: -0.0002863884}
+      rotation: {x: -0.0005710229, y: -0.00000005639546, z: -0.045945752, w: 0.9989438}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandRing4
+      parentName: GreeKBoi_Ctrl_RightHandRing3
+      position: {x: 0.019232025, y: 0, z: -0.00023902893}
+      rotation: {x: 0.00000022546423, y: 0.00000011499543, z: 0.00000028141218, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandThumb1
+      parentName: GreeKBoi_Ctrl_RightHand
+      position: {x: 0.041336287, y: -0.018623352, z: 0.043038644}
+      rotation: {x: 0.10138179, y: 0.110901356, z: -0.06991028, w: 0.986172}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandThumb2
+      parentName: GreeKBoi_Ctrl_RightHandThumb1
+      position: {x: 0.020969009, y: -0.013359527, z: 0.008634088}
+      rotation: {x: 0.019256681, y: 0.049343474, z: 0.010909644, w: 0.99853665}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandThumb3
+      parentName: GreeKBoi_Ctrl_RightHandThumb2
+      position: {x: 0.02018898, y: -0.010408172, z: 0.011438034}
+      rotation: {x: 0.033635125, y: 0.086181685, z: 0.019054903, w: 0.9955292}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandThumb4
+      parentName: GreeKBoi_Ctrl_RightHandThumb3
+      position: {x: 0.021170348, y: -0.010914153, z: 0.0119938}
+      rotation: {x: -0.00000011789206, y: 0.00000021344539, z: 0.00000016068668, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_HipsEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: -0, y: 0.9372999, z: 1.0587912e-24}
+      rotation: {x: 2.5266077e-16, y: 7.332054e-32, z: -2.220446e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftAnkleEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: -0.08331805, y: 0.0563089, z: -0.085272275}
+      rotation: {x: 1.0737938e-15, y: -2.0816682e-16, z: 1.4224733e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftElbowEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: -0.21877916, y: 1.232748, z: 0.038575295}
+      rotation: {x: -0.13630638, y: 0.7237841, z: 0.55619884, w: 0.38496757}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftFootEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: -0.1270803, y: 0.00096150395, z: 0.11415071}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandIndexEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.049046192, y: 1.2308384, z: 0.3137793}
+      rotation: {x: 0.111373864, y: 0.46561137, z: 0.7988824, w: -0.3641274}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandMiddleEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.051433686, y: 1.2122682, z: 0.30093738}
+      rotation: {x: 0.16071433, y: 0.42613015, z: 0.76589966, w: -0.4538521}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandPinkyEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.044256963, y: 1.1759803, z: 0.2825198}
+      rotation: {x: 0.12288471, y: 0.47697964, z: 0.78063166, w: -0.3847129}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandRingEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.049957592, y: 1.1936948, z: 0.2938119}
+      rotation: {x: 0.19117606, y: 0.45163798, z: 0.7208131, w: -0.48979926}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHandThumbEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.021225676, y: 1.2283981, z: 0.32382518}
+      rotation: {x: -0.03151644, y: 0.44428408, z: 0.75332785, w: 0.48385498}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftHipEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: -0.0891, y: 0.9372999, z: 1.9784175e-17}
+      rotation: {x: 0.0000011261451, y: -0.00000010723541, z: -1.8814122e-18, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftKneeEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: -0.11473009, y: 0.48851356, z: 1.7472934e-15}
+      rotation: {x: -0.00000005887986, y: 0.000000004928699, z: -0.00000004667101,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftShoulderEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: -0.18258686, y: 1.4683366, z: -0.034575928}
+      rotation: {x: 0.17900264, y: 0.41981623, z: 0.5458785, w: 0.70265853}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_LeftWristEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: -0.048997574, y: 1.1731758, z: 0.21121429}
+      rotation: {x: -0.32517996, y: 0.31392965, z: 0.7326375, w: 0.50886977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightAnkleEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.08331805, y: 0.0563089, z: -0.085272275}
+      rotation: {x: -7.615436e-16, y: -8.187895e-16, z: -1.3530843e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightElbowEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.23478699, y: 1.2284786, z: 0.009085908}
+      rotation: {x: 0.21602498, y: 0.67539763, z: 0.55152416, w: -0.43930894}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightFootEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.1270803, y: 0.00096150395, z: 0.11415071}
+      rotation: {x: 3.469142e-32, y: -0, z: -1.2246469e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandIndexEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.025151476, y: 1.1409705, z: 0.29670116}
+      rotation: {x: 0.17222604, y: 0.35509968, z: 0.91851556, w: 0.02390741}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandMiddleEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.01628036, y: 1.1201864, z: 0.28595555}
+      rotation: {x: 0.19833724, y: 0.3331383, z: 0.92151785, w: -0.022048868}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandPinkyEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.024716424, y: 1.0960181, z: 0.25080433}
+      rotation: {x: 0.23559973, y: 0.33076152, z: 0.8999295, w: -0.15879674}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandRingEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.030820565, y: 1.0940514, z: 0.27931362}
+      rotation: {x: 0.25008327, y: 0.31895187, z: 0.8926271, w: -0.19734459}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHandThumbEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.03711555, y: 1.1787217, z: 0.2677754}
+      rotation: {x: -0.054029554, y: -0.24301098, z: -0.8049618, w: 0.53857505}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightHipEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.0891, y: 0.9372999, z: -1.9784173e-17}
+      rotation: {x: 0.00000066610266, y: 0.00000006775713, z: -5.577487e-16, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightKneeEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.11473009, y: 0.48851356, z: 1.9675368e-15}
+      rotation: {x: -0.000000059604645, y: -0.000000014901161, z: 0.00000002980232,
+        w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightShoulderEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.18258686, y: 1.4683366, z: -0.034575928}
+      rotation: {x: 0.1418113, y: -0.3104325, z: -0.57655686, w: 0.7423635}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Ctrl_RightWristEffector
+      parentName: GreeKBoi_Ctrl_Reference
+      position: {x: 0.100462586, y: 1.1786841, z: 0.21318465}
+      rotation: {x: 0.33920452, y: 0.2402354, z: 0.76414645, w: -0.49326205}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Reference
+      parentName: talking beat gesture(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Hips
+      parentName: GreeKBoi_Reference
+      position: {x: 2.784441e-17, y: 1, z: 2.784441e-17}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftUpLeg
+      parentName: GreeKBoi_Hips
+      position: {x: -0.0891, y: -0.06270004, z: -2.784441e-17}
+      rotation: {x: 0.0000013861116, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftLeg
+      parentName: GreeKBoi_LeftUpLeg
+      position: {x: -0.025630064, y: -0.44878638, z: 0.0000011993432}
+      rotation: {x: -0.0000014024591, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftFoot
+      parentName: GreeKBoi_LeftLeg
+      position: {x: 0.031412028, y: -0.43220466, z: -0.08527224}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftToeBase
+      parentName: GreeKBoi_LeftFoot
+      position: {x: -0.043762263, y: -0.055347398, z: 0.19942299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightUpLeg
+      parentName: GreeKBoi_Hips
+      position: {x: 0.0891, y: -0.06270004, z: -2.784441e-17}
+      rotation: {x: 0.0000018582257, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightLeg
+      parentName: GreeKBoi_RightUpLeg
+      position: {x: 0.025630074, y: -0.44878638, z: 0.0000017794704}
+      rotation: {x: -0.000001778144, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightFoot
+      parentName: GreeKBoi_RightLeg
+      position: {x: -0.03141202, y: -0.43220466, z: -0.08527228}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightToeBase
+      parentName: GreeKBoi_RightFoot
+      position: {x: 0.043762263, y: -0.05534736, z: 0.19942299}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Spine
+      parentName: GreeKBoi_Hips
+      position: {x: 3.1086245e-17, y: 0.07, z: 3.1086245e-17}
+      rotation: {x: 0.002798093, y: -0, z: -0, w: 0.9999961}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Spine1
+      parentName: GreeKBoi_Spine
+      position: {x: 4.822428e-17, y: 0.10829011, z: -1.07018824e-10}
+      rotation: {x: 0.0055961446, y: -0, z: -0, w: 0.9999844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Spine2
+      parentName: GreeKBoi_Spine1
+      position: {x: 4.9025605e-17, y: 0.1082901, z: 3.9308967e-10}
+      rotation: {x: 0.005596147, y: -0, z: -0, w: 0.9999844}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Spine3
+      parentName: GreeKBoi_Spine2
+      position: {x: 3.2713938e-17, y: 0.108290106, z: -0.01984577}
+      rotation: {x: 0.028054116, y: -0, z: -0, w: 0.99960643}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftShoulder
+      parentName: GreeKBoi_Spine3
+      position: {x: -0.070000045, y: 0.07101513, z: 0.00000000685477}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftArm
+      parentName: GreeKBoi_LeftShoulder
+      position: {x: -0.11258682, y: 0.000001382419, z: -0.026249513}
+      rotation: {x: 0.25087446, y: 0.07476932, z: 0.012517117, w: 0.9650465}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftForeArm
+      parentName: GreeKBoi_LeftArm
+      position: {x: -0.24686284, y: -0.005833106, z: -0.034463167}
+      rotation: {x: 0.0089699, y: -0.06292583, z: -0.0043802094, w: 0.99796826}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeafLeftForeArmRoll1
+      parentName: GreeKBoi_LeftForeArm
+      position: {x: -0.07478661, y: -0.0017481714, z: 0.000000021213042}
+      rotation: {x: -0.08849245, y: -0.0020682786, z: 0.0000018535791, w: 0.9960747}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeafLeftForeArmRoll2
+      parentName: GreeKBoi_LeftForeArm
+      position: {x: -0.14957325, y: -0.0034963398, z: 0.000000048341608}
+      rotation: {x: -0.17628206, y: -0.004120855, z: 0.000001873869, w: 0.9843311}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeafLeftForeArmRoll3
+      parentName: GreeKBoi_LeftForeArm
+      position: {x: -0.22435988, y: -0.005244515, z: 0.000000076279704}
+      rotation: {x: -0.26269263, y: -0.0061404807, z: 0.0000013274537, w: 0.96486}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHand
+      parentName: GreeKBoi_LeftForeArm
+      position: {x: -0.24928877, y: -0.0058272392, z: 0.0000000287174}
+      rotation: {x: -0.40234214, y: -0.13503271, z: -0.019604715, w: 0.9052639}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandIndex1
+      parentName: GreeKBoi_LeftHand
+      position: {x: -0.10260703, y: -0.003023265, z: 0.03471671}
+      rotation: {x: -0.021991814, y: 0.058216855, z: 0.011893858, w: 0.9979909}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandIndex2
+      parentName: GreeKBoi_LeftHandIndex1
+      position: {x: -0.030516436, y: -0.0032233992, z: -0.00084989227}
+      rotation: {x: -0.00526521, y: 0.005886262, z: 0.033678994, w: 0.9994015}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandIndex3
+      parentName: GreeKBoi_LeftHandIndex2
+      position: {x: -0.02643999, y: -0.0020231782, z: -0.0010833904}
+      rotation: {x: 0.0016339701, y: 0.00027893373, z: -0.03993958, w: 0.99920076}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandIndex4
+      parentName: GreeKBoi_LeftHandIndex3
+      position: {x: -0.019508583, y: -0.0014927638, z: -0.0008054055}
+      rotation: {x: 0, y: -0.0021585284, z: -0, w: 0.9999977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandMiddle1
+      parentName: GreeKBoi_LeftHand
+      position: {x: -0.104524076, y: 0.0011611693, z: 0.013046828}
+      rotation: {x: -0.030116908, y: 0.07499847, z: -0.008158164, w: 0.9966954}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandMiddle2
+      parentName: GreeKBoi_LeftHandMiddle1
+      position: {x: -0.034254923, y: -0.004908593, z: -0.0024267014}
+      rotation: {x: -0.0027208691, y: -0.00026454768, z: 0.03883045, w: 0.99924207}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandMiddle3
+      parentName: GreeKBoi_LeftHandMiddle2
+      position: {x: -0.027443094, y: -0.0027891668, z: -0.0019367025}
+      rotation: {x: -0.0013582591, y: -0.00013758954, z: 0.01945274, w: 0.99980986}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandMiddle4
+      parentName: GreeKBoi_LeftHandMiddle3
+      position: {x: -0.01990455, y: -0.002022849, z: -0.0014047349}
+      rotation: {x: 0, y: 0, z: 0.0000005195291, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandPinky1
+      parentName: GreeKBoi_LeftHand
+      position: {x: -0.09370856, y: -0.0067425934, z: -0.027713036}
+      rotation: {x: -0.020361094, y: 0.05815562, z: 0.019829946, w: 0.99790287}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandPinky2
+      parentName: GreeKBoi_LeftHandPinky1
+      position: {x: -0.025669713, y: -0.00233001, z: -0.00079686265}
+      rotation: {x: 0.008791613, y: -0.014090779, z: 0.02037496, w: 0.99965453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandPinky3
+      parentName: GreeKBoi_LeftHandPinky2
+      position: {x: -0.019664152, y: -0.0017848305, z: -0.000000012614355}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandPinky4
+      parentName: GreeKBoi_LeftHandPinky3
+      position: {x: -0.016597899, y: -0.001506473, z: 5.2563476e-10}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandRing1
+      parentName: GreeKBoi_LeftHand
+      position: {x: -0.10233339, y: -0.0035866054, z: -0.007931607}
+      rotation: {x: -0.017103132, y: 0.05300198, z: 0.06511833, w: 0.9963222}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandRing2
+      parentName: GreeKBoi_LeftHandRing1
+      position: {x: -0.02823369, y: -0.000000041305636, z: -0.00035085852}
+      rotation: {x: -0.00027644442, y: 0.0000019893046, z: 0.022275949, w: 0.9997518}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandRing3
+      parentName: GreeKBoi_LeftHandRing2
+      position: {x: -0.023043431, y: 0.000000027880613, z: -0.00028642724}
+      rotation: {x: -0.0004676428, y: -0.0000007747002, z: 0.037619196, w: 0.9992921}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandRing4
+      parentName: GreeKBoi_LeftHandRing3
+      position: {x: -0.01923203, y: -0.0000000055669944, z: -0.00023901583}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandThumb1
+      parentName: GreeKBoi_LeftHand
+      position: {x: -0.041336287, y: -0.01862336, z: 0.043038633}
+      rotation: {x: -0.1474526, y: 0.16862716, z: -0.085997276, w: 0.97078687}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandThumb2
+      parentName: GreeKBoi_LeftHandThumb1
+      position: {x: -0.020968987, y: -0.013359532, z: 0.008634108}
+      rotation: {x: 0.068910934, y: -0.026115322, z: -0.008511579, w: 0.9972447}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandThumb3
+      parentName: GreeKBoi_LeftHandThumb2
+      position: {x: -0.020188963, y: -0.010408175, z: 0.011438046}
+      rotation: {x: 0.013566985, y: -0.03476318, z: -0.0076882164, w: 0.9992739}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeftHandThumb4
+      parentName: GreeKBoi_LeftHandThumb3
+      position: {x: -0.021170363, y: -0.010914157, z: 0.011993819}
+      rotation: {x: -0.00000061075133, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Neck
+      parentName: GreeKBoi_Spine3
+      position: {x: 9.747855e-17, y: 0.108290136, z: -0.015106292}
+      rotation: {x: -0.0000008424333, y: 0.000641881, z: -0.0095915515, w: 0.9999538}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Neck1
+      parentName: GreeKBoi_Neck
+      position: {x: 0.0000000055920752, y: 0.109306715, z: 0.0073151076}
+      rotation: {x: -0.0000009889727, y: 0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Neck2
+      parentName: GreeKBoi_Neck1
+      position: {x: -0.000000020099884, y: 0.10930681, z: 0.001280803}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_Head
+      parentName: GreeKBoi_Neck2
+      position: {x: -0.000000016044975, y: 0.10930684, z: 0.0009541867}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Eyes
+      parentName: GreeKBoi_Head
+      position: {x: 0.004784638, y: -0.1820623, z: -0.0057230038}
+      rotation: {x: -0.49156433, y: 0.87084126, z: 5.332365e-17, w: -3.0099633e-17}
+      scale: {x: 1, y: 1, z: 1}
+    - name: LeftEye
+      parentName: Eyes
+      position: {x: -0.03701313, y: 0.0597659, z: -0.08876916}
+      rotation: {x: 0.014017843, y: 0.007912662, z: 0.8707285, w: -0.49150068}
+      scale: {x: 1, y: 1, z: 1}
+    - name: RightEye
+      parentName: Eyes
+      position: {x: -0.06889358, y: 0.0069400053, z: -0.088769175}
+      rotation: {x: -0.49144512, y: 0.8706301, z: 0.010825285, w: 0.019177763}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightShoulder
+      parentName: GreeKBoi_Spine3
+      position: {x: 0.070000045, y: 0.07101513, z: 0.00000000685477}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightArm
+      parentName: GreeKBoi_RightShoulder
+      position: {x: 0.11258682, y: 0.000001382419, z: -0.026249513}
+      rotation: {x: 0.19578598, y: -0.07452131, z: -0.010748845, w: 0.97775203}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightForeArm
+      parentName: GreeKBoi_RightArm
+      position: {x: 0.24686289, y: -0.005833681, z: -0.03446299}
+      rotation: {x: 0.0067460523, y: 0.06542437, z: 0.0071240747, w: 0.99780935}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeafRightForeArmRoll1
+      parentName: GreeKBoi_RightForeArm
+      position: {x: 0.074786626, y: -0.0017481932, z: -0.000000005711511}
+      rotation: {x: -0.09145994, y: 0.002137255, z: -0.0000017684652, w: 0.99580646}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeafRightForeArmRoll2
+      parentName: GreeKBoi_RightForeArm
+      position: {x: 0.14957327, y: -0.0034964052, z: -0.000000004608978}
+      rotation: {x: -0.18215199, y: 0.0042570275, z: -0.000000081570626, w: 0.98326117}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_LeafRightForeArmRoll3
+      parentName: GreeKBoi_RightForeArm
+      position: {x: 0.22435993, y: -0.0052446085, z: -2.8153252e-10}
+      rotation: {x: -0.27131826, y: 0.0063429466, z: -0.00000030221213, w: 0.9624688}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHand
+      parentName: GreeKBoi_RightForeArm
+      position: {x: 0.24928884, y: -0.005827317, z: -0.000000028472714}
+      rotation: {x: -0.41392964, y: 0.20167352, z: 0.026851458, w: 0.8872819}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandIndex1
+      parentName: GreeKBoi_RightHand
+      position: {x: 0.10260699, y: -0.0030232908, z: 0.034716744}
+      rotation: {x: -0.016471794, y: -0.053374585, z: -0.01365634, w: 0.9983453}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandIndex2
+      parentName: GreeKBoi_RightHandIndex1
+      position: {x: 0.030516414, y: -0.0032234208, z: -0.0008498965}
+      rotation: {x: -0.003754682, y: -0.0054148175, z: -0.045975864, w: 0.99892086}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandIndex3
+      parentName: GreeKBoi_RightHandIndex2
+      position: {x: 0.026439965, y: -0.0020231535, z: -0.00108397}
+      rotation: {x: -0.001506972, y: 0.00026968194, z: -0.037119113, w: 0.9993097}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandIndex4
+      parentName: GreeKBoi_RightHandIndex3
+      position: {x: 0.019509055, y: -0.001492774, z: -0.00079380826}
+      rotation: {x: 0, y: -0.0021585983, z: -0, w: 0.9999977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandMiddle1
+      parentName: GreeKBoi_RightHand
+      position: {x: 0.104524046, y: 0.0011611604, z: 0.013046879}
+      rotation: {x: -0.022087466, y: -0.0691099, z: 0.007321575, w: 0.99733764}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandMiddle2
+      parentName: GreeKBoi_RightHandMiddle1
+      position: {x: 0.034254897, y: -0.0049086157, z: -0.0024266895}
+      rotation: {x: -0.0036155602, y: 0.00035134685, z: -0.05169818, w: 0.9986562}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandMiddle3
+      parentName: GreeKBoi_RightHandMiddle2
+      position: {x: 0.027443051, y: -0.0027891644, z: -0.0019370302}
+      rotation: {x: -0.0027685487, y: 0.00043520692, z: -0.039711915, w: 0.99920726}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandMiddle4
+      parentName: GreeKBoi_RightHandMiddle3
+      position: {x: 0.019904971, y: -0.002022815, z: -0.0013988275}
+      rotation: {x: -0.000000001951499, y: -0.0021585983, z: 0.0000009040563, w: 0.9999977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandPinky1
+      parentName: GreeKBoi_RightHand
+      position: {x: 0.09370855, y: -0.0067425766, z: -0.027713004}
+      rotation: {x: -0.0073452257, y: -0.037967037, z: -0.018675251, w: 0.99907756}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandPinky2
+      parentName: GreeKBoi_RightHandPinky1
+      position: {x: 0.02566973, y: -0.0023299938, z: -0.0007968786}
+      rotation: {x: 0.004303815, y: 0.012993222, z: -0.03194765, w: 0.9993958}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandPinky3
+      parentName: GreeKBoi_RightHandPinky2
+      position: {x: 0.01966414, y: -0.0017848489, z: -0.00000018850076}
+      rotation: {x: 0.0000067353208, y: 0.00015397268, z: -0.040842455, w: 0.9991656}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandPinky4
+      parentName: GreeKBoi_RightHandPinky3
+      position: {x: 0.016597895, y: -0.0015065225, z: 0.0000049655528}
+      rotation: {x: 0.00023024592, y: -0.002141746, z: 0.123842835, w: 0.9922995}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandRing1
+      parentName: GreeKBoi_RightHand
+      position: {x: 0.102333345, y: -0.0035866173, z: -0.007931552}
+      rotation: {x: -0.0016437164, y: -0.013409189, z: -0.055805583, w: 0.99835026}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandRing2
+      parentName: GreeKBoi_RightHandRing1
+      position: {x: 0.028233718, y: -0.0000000071662174, z: -0.00035087997}
+      rotation: {x: -0.0004095286, y: -0.00000604428, z: -0.032960515, w: 0.9994566}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandRing3
+      parentName: GreeKBoi_RightHandRing2
+      position: {x: 0.023043457, y: 0.000000023413763, z: -0.00028662969}
+      rotation: {x: -0.0005075043, y: 0.00015395369, z: -0.0413221, w: 0.99914575}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandRing4
+      parentName: GreeKBoi_RightHandRing3
+      position: {x: 0.019232076, y: -0.000000028523756, z: -0.0002333057}
+      rotation: {x: 0, y: -0.0021585983, z: -0, w: 0.9999977}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandThumb1
+      parentName: GreeKBoi_RightHand
+      position: {x: 0.041336246, y: -0.018623386, z: 0.043038655}
+      rotation: {x: -0.119415835, y: -0.15031624, z: 0.03718261, w: 0.98069483}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandThumb2
+      parentName: GreeKBoi_RightHandThumb1
+      position: {x: 0.020969, y: -0.013359542, z: 0.008634102}
+      rotation: {x: 0.026421439, y: 0.04968992, z: -0.0033394094, w: 0.99840957}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandThumb3
+      parentName: GreeKBoi_RightHandThumb2
+      position: {x: 0.020189008, y: -0.010408158, z: 0.011438022}
+      rotation: {x: 0.013845828, y: 0.03547782, z: 0.0078460295, w: 0.9992438}
+      scale: {x: 1, y: 1, z: 1}
+    - name: GreeKBoi_RightHandThumb4
+      parentName: GreeKBoi_RightHandThumb3
+      position: {x: 0.021170348, y: -0.010914159, z: 0.011993794}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 3
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
