@@ -5,9 +5,9 @@ and categorized with different intents for conversation. The assistant will be a
 
 currently it takes both text (testing purposes) and voice input then reply back with voice.
 
-todo:
+todo:done
 1. my made model
 2. animation
 3. lip synchronization
-4. my made dialogue flow 
+4. my made dialogue flow --pending
 5. update code 
